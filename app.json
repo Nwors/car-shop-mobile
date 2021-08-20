@@ -1,0 +1,19 @@
+{
+
+  "expo": {
+    "name": "expo-project",
+    "slug": "expo-project",
+    "scheme": "cars",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "build": {
+        "babel": {
+          "include": ["react-router-native"]
+        }
+      }
+    }
+  }
+}
